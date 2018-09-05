@@ -1,0 +1,38 @@
+{
+    "name": "x3y/laravel-jieba",
+    "description": "Laravel package for fukuball/jieba-php.",
+    "keywords": [
+        "laravel",
+        "jieba",
+        "chinese"
+    ],
+    "version": "0.1.1",
+    "require": {
+        "fukuball/jieba-php": "0.33"
+    },
+    "autoload": {
+        "psr-4": {
+            "x3y\\LaravelJieba\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "x3y\\LaravelJieba\\ServiceProvider"
+            ],
+            "aliases": {
+                "Pinyin": "x3y\\LaravelJieba\\Facades\\Jieba"
+            }
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "x3y",
+            "email": "18812671662@163.com"
+        }
+    ]
+}
