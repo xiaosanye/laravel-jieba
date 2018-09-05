@@ -6,7 +6,7 @@
         "jieba",
         "chinese"
     ],
-    "version": "1.0.0",
+    "version": "v1.0.0",
     "require": {
         "fukuball/jieba-php": "0.33"
     },
